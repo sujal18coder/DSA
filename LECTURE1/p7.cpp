@@ -9,12 +9,9 @@ int main(){
         for(int space=1;space<=n -row; space++){
         cout<< " " ;
         }
-        for( int star=1;star<=row;star++){
+        for( int star=1;star<=row;star++)
         cout<<"*";
-        }
-        for(int row=1;row <=n;row++){
 
-        }
         cout<<endl;
     }
     return 0;

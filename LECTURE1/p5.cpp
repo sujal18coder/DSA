@@ -1,16 +1,15 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main(){
-    int n;
-    cin>>n;
-    
-    for( int row=1;row<=n;row++)
-    {
-        for(int col=1;col<=5 + row;col++){
-        cout<< " ";
+
+int main() {
+    int n = 5;   // number of rows
+
+    for(int i = 1; i <= n; i++) {        // outer loop → rows
+        for(int j = 1; j <= i; j++) {    // inner loop → stars
+            cout << "*";
         }
-        cout<<
-        cout<<endl;
+        cout << endl;  // move to next line
     }
+
     return 0;
 }
